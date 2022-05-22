@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: chartreuse;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat_code
+{
+    background-color: aquamarine;
+    height: 450px;
+    width: 800px;
+    border: 2px solid red;
+}
+
+.display
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="button"]
+{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+input[type="button"]:hover
+{
+    background-color: aquamarine;
+}
+
+input[class="way_left"]
+{
+    margin-left: 50px;
+}
+
+input[class="way_right"]
+{
+    margin-left: 50px;
+}

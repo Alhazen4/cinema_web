@@ -1,0 +1,79 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav_body
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 10px solid #F7D716 ;
+    
+    background: rgb(62,163,255);
+    background: -moz-radial-gradient(circle, rgba(62,163,255,1) 0%, rgba(28,23,73,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(62,163,255,1) 0%, rgba(28,23,73,1) 100%);
+    background: radial-gradient(circle, rgba(62,163,255,1) 0%, rgba(28,23,73,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ea3ff",endColorstr="#1c1749",GradientType=1);
+}
+
+.title
+{
+    margin-left: 20px;
+    color: white;
+}
+
+
+.main_title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sec_title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7D716;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu>ul>li
+{
+
+    float: left;
+}
+
+.menu>ul>li>a
+{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 22.5px 23px;
+    transition: all 0.5s;
+}
+
+.menu>ul>li>a:hover
+{
+    background-color: #F7D716;
+}
